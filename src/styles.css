@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
     text-align: center;
     color: #fff;
-    padding: 0 20px;
 }
 
 h1 {
@@ -23,7 +22,7 @@ a {
 
 /* Style for Blurred Container */
 .container {
-    width: 80%;
+    width: 85%;
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;

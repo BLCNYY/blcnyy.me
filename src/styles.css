@@ -1,7 +1,7 @@
 /* Styles for default tags */
 body {
     background-color: #010d19;
-    background-image: url(bg-low.jpg);
+    background-image: url(images/bg-low.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,12 +18,13 @@ p,
 h5,
 a {
     font-family: 'Supreme', Arial;
+    color: #fff;
     text-decoration: none;
 }
 
 /* Style for Blurred Container */
 .container {
-    width: 80%;
+    width: 90%;
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -131,11 +132,18 @@ a {
     box-shadow: 0 0 25px #5865f2;
 }
 
+footer p {
+    margin: 0;
+}
+
 /* Media Queries*/
 @media screen and (min-width: 769px) {
 	body {
 		padding: 0  40px;
 	} 
+    .container {
+        width: 80%;
+    }
     .card {
         width: 60%;
     }

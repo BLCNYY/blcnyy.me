@@ -1,7 +1,7 @@
 /* Styles for default tags */
 body {
     background-color: #010d19;
-    background-image: url(images/bg-low.jpg);
+    background-image: url(/src/images/bg-low.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,17 +36,17 @@ a {
 }
 
 .link {
-	padding: 8px;
 	background-color: #fff;
 	color: #000;
-	border-radius: 8px;
-        font-weight: bold;
+    padding: 8px;
 	text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
 	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .link:hover {
-	background-color: #000;
+	background-color: transparent;
 	color: #fff;
 }
 

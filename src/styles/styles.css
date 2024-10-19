@@ -140,13 +140,6 @@ a {
     box-shadow: 0 0 25px rgba(228, 64, 95, 0.5);
 }
 
-.discord {
-    background-color: #5865f2;
-}
-
-.discord:hover {
-    box-shadow: 0 0 25px #5865f2;
-}
 
 footer p {
     margin: 0;
